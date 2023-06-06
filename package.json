@@ -1,0 +1,32 @@
+{
+  "name": "js-boilerplate-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "lint:watch": "esw src --watch",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve",
+    "start": "run-p lint:watch serve"
+  },
+  "author": "Jasmine Hirpara",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-watch": "^3.1.2",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "jquery": "^3.7.0",
+    "prettier-print": "^1.0.7",
+    "style-loader": "^3.3.3"
+  }
+}
